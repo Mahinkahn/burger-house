@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url(images/Logo/Design.png);
+    background-repeat:round;
+    max-width: 1950px;
+}
+
+.navbar-text{
+    position:absolute;
+    top: 15px;
+    right: 100px;
+}
+
+.btn-btn {
+    background-color: #ffc045;
+    border: #ffc045;
+    margin-top: 200px;
+    margin-left: 520px;
+    width: 250px;
+    height: 50px;
+    font-size: 23px;
+    font-family: sans-serif;
+}
