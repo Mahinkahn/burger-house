@@ -19,8 +19,168 @@ header {
     border: #ffc045;
     margin-top: 200px;
     margin-left: 520px;
-    width: 250px;
+    width: 255px;
     height: 50px;
-    font-size: 23px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.btn{
+    background-color: #bf2222;
+    color: #ffffff;
+    margin-left: 130px;
+    border: red;
+    width: 198px;
+    height: 58px;
+    margin-top: 37px;
+    font-size: 18px;
+    font-weight:bolder;
+    font-family: Georgia, serif;
+}
+
+.ball{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ffc045;
+    margin-left: 20px;
+}
+
+.ball-2{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+    margin-left: 40px;
+}
+
+.ball-3{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+    margin-left: 60px; 
+}
+
+.carousel-inner{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  lightgray;
+   
+    
+}
+  
+
+
+section {
+    background-image: url(images/icons/BG-Image.png);
+    background-repeat:round;
+    height: 1050px;
+}
+
+.name{
+    height: 60px;
+    width: 367px;
+    border: solid 1px;
+    border-radius: 8px;
     font-family: sans-serif;
+    position: relative;
+    top: 276px;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.top-left {
+    position: absolute;
+    top: 953px;
+    left: 348px;
+    color: #ffffff;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.bottom-right {
+    position: absolute;
+    top: 972px;
+    left: 348px;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.top2 {
+    position: absolute;
+    top: 966px;
+    left:  983px;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: sans-serif; 
+}
+
+.right3{
+    position: absolute;
+    top: 984px;
+    left: 988px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.right4{
+    position: absolute;
+    top:  1013px;
+    left: 989px;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.top5{
+    position: absolute;
+    top: 1153px;
+    left:  983px;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: sans-serif;  
+}
+
+.right6{
+    position: absolute;
+    top:  1174px;
+    left: 986px;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.p-2{
+    position: absolute;
+    top:  4259px;
+    left: 408px;
+    color: #aeacaa;
+}
+
+.fa-solid{
+    position: relative;
+    left: 1267px;
+    top: -423px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.fa-brands{
+    position: relative;
+    left: 1370px;
+    top: -179px;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 60%;
 }
